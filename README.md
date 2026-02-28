@@ -22,11 +22,11 @@ Scheme-_Finder/
 ## Screenshot
 
 <p align="center">
-  <img src="Agentic AI Chatbot/images/Demoo.png" width="600"/>
+  <img src="Agentic AI Chatbot/images/Demoo.png" width="650"/>
 </p>
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 <p align="center">
-<img src="Agentic AI Chatbot/images/Demo.png" width="600"/>
+<img src="Agentic AI Chatbot/images/Demo.png" width="650"/>
 </p>
 
 ## 🛠️ Requirements
