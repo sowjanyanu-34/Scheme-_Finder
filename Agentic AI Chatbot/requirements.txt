@@ -1,0 +1,6 @@
+streamlit
+chromadb
+ollama
+pypdf
+pdf2image
+pytesseract
