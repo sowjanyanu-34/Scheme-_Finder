@@ -19,6 +19,10 @@ Scheme-_Finder/
 └── (other files if added later)
 
 
+## Screenshot
+<img src="images/demo1" alt="Analog Clock" width="350" height="350">
+<img src="images/demo2" alt="Analog Clock" width="350" height="350">
+
 ## 🛠️ Requirements
 
 Before running the app, install the needed dependencies:
