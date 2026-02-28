@@ -19,6 +19,16 @@ Scheme-_Finder/
 └── (other files if added later)
 
 
+## Screenshot
+
+<p align="center">
+  <img src="Agentic AI Chatbot/images/demo1.png" width="350"/>
+</p>
+
+<p align="center">
+<img src="Agentic AI Chatbot/images/demo2.png" width="350"/>
+</p>
+
 ## 🛠️ Requirements
 
 Before running the app, install the needed dependencies:
