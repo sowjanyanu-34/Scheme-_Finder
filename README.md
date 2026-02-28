@@ -25,12 +25,19 @@ Scheme-_Finder/
 
 ## Screenshot
 
+### Home Screen
 <p align="center">
-  <img src="Agentic AI Chatbot/images/Demoo.png" width="700"/>
+  <img src="Agentic AI Chatbot/images/Demoo.png" width="859"/>
 </p>
----------------------------------------------------------------------------------------------------------------------------------
+
+###  Upload Screen
 <p align="center">
-<img src="Agentic AI Chatbot/images/Demo.png" width="700"/>
+<img src="Agentic AI Chatbot/images/Demo.png" width="859"/>
+</p>
+
+### n8n flow
+<p align="center">
+<img src="Agentic AI Chatbot/images/n8n.png" width="859"/>
 </p>
 
 ## 🛠️ Requirements
