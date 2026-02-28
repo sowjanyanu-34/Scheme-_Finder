@@ -17,3 +17,11 @@ Scheme-_Finder/
 │ ├── logo.jpeg # Logo image
 │ └── requirements.txt # Python dependencies
 └── (other files if added later)
+
+
+## 🛠️ Requirements
+
+Before running the app, install the needed dependencies:
+
+```bash
+pip install -r Agentic\ AI\ Chatbot/requirements.txt
