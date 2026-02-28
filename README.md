@@ -51,7 +51,7 @@ git clone https://github.com/sowjanyanu-34/Scheme-_Finder.git
 cd Scheme-_Finder
 ```
 
-## ✅ How to Add this README to GitHub
+## How to Add this README to GitHub
 
 1. Create a file in your repo named **README.md**
 2. Paste the text above
@@ -61,3 +61,11 @@ cd Scheme-_Finder
 git add README.md
 git commit -m "Add README"
 git push
+
+---
+
+## ⭐ Support This Project
+
+If you find this project useful, please consider giving it a ⭐ on GitHub!
+
+Click the **Star** button at the top right of this repository 😊
