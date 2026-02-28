@@ -20,8 +20,8 @@ Scheme-_Finder/
 
 
 ## Screenshot
-<img src="images/demo1" alt="Analog Clock" width="350" height="350">
-<img src="images/demo2" alt="Analog Clock" width="350" height="350">
+<img src="images/demo1" alt="Scheme Finder" width="350" height="350">
+<img src="images/demo2" alt="Scheme Finder" width="350" height="350">
 
 ## 🛠️ Requirements
 
