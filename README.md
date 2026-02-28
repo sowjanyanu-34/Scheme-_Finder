@@ -42,6 +42,14 @@ pip install -r Agentic\ AI\ Chatbot/requirements.txt
 
 
 ---
+## 🚀 Clone This Repository
+
+To clone this project to your local machine:
+
+```bash
+git clone https://github.com/sowjanyanu-34/Scheme-_Finder.git
+cd Scheme-_Finder
+```
 
 ## ✅ How to Add this README to GitHub
 
