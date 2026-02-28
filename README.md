@@ -10,23 +10,27 @@ This repository contains an AI chatbot built using Python that can:
 - Store any indexed data in local `chromadb` directory
 
 ## 📁 Folder Structure
+
+```
 Scheme-_Finder/
 ├── Agentic AI Chatbot/
-│ ├── chroma_db/ # Local database storage
-│ ├── app.py # Main app file
-│ ├── logo.jpeg # Logo image
-│ └── requirements.txt # Python dependencies
-└── (other files if added later)
+│   ├── chroma_db/
+│   ├── images/
+│   ├── app.py
+│   ├── logo.jpeg
+│   └── requirements.txt
+└── README.md
+```
 
 
 ## Screenshot
 
 <p align="center">
-  <img src="Agentic AI Chatbot/images/demo1.png" width="350"/>
+  <img src="Agentic AI Chatbot/images/Demoo.png" width="700"/>
 </p>
-
+---------------------------------------------------------------------------------------------------------------------------------
 <p align="center">
-<img src="Agentic AI Chatbot/images/demo2.png" width="350"/>
+<img src="Agentic AI Chatbot/images/Demo.png" width="700"/>
 </p>
 
 ## 🛠️ Requirements
@@ -38,8 +42,16 @@ pip install -r Agentic\ AI\ Chatbot/requirements.txt
 
 
 ---
+## 🚀 Clone This Repository
 
-## ✅ How to Add this README to GitHub
+To clone this project to your local machine:
+
+```bash
+git clone https://github.com/sowjanyanu-34/Scheme-_Finder.git
+cd Scheme-_Finder
+```
+
+## How to Add this README to GitHub
 
 1. Create a file in your repo named **README.md**
 2. Paste the text above
@@ -49,3 +61,11 @@ pip install -r Agentic\ AI\ Chatbot/requirements.txt
 git add README.md
 git commit -m "Add README"
 git push
+
+---
+
+## ⭐ Support This Project
+
+If you find this project useful, please consider giving it a ⭐ on GitHub!
+
+Click the **Star** button at the top right of this repository 😊
