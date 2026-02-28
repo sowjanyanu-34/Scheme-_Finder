@@ -22,7 +22,6 @@ Scheme-_Finder/
 ## Screenshot
 
 <p align="center">
-  <img src="Agentic AI Chatbot/images/demo1.png" width="350"/>
 </p>
 
 <p align="center">
