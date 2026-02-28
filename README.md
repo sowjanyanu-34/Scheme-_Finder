@@ -25,3 +25,17 @@ Before running the app, install the needed dependencies:
 
 ```bash
 pip install -r Agentic\ AI\ Chatbot/requirements.txt
+
+
+---
+
+## ✅ How to Add this README to GitHub
+
+1. Create a file in your repo named **README.md**
+2. Paste the text above
+3. Save & commit:
+
+```bash
+git add README.md
+git commit -m "Add README"
+git push
