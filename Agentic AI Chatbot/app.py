@@ -1,16 +1,9 @@
-# =========================
-# IMPORTS
-# =========================
 import streamlit as st
 import chromadb
 import ollama
 from pypdf import PdfReader
 from pdf2image import convert_from_bytes
 import pytesseract
-
-# =========================
-# CONFIG
-# =========================
 CHROMA_PATH = "./chroma_db"
 COLLECTION = "entrepreneur_schemes"
 EMBED_MODEL = "nomic-embed-text:latest"
@@ -21,18 +14,12 @@ CHUNK_OVERLAP = 50
 N_RESULTS = 5
 DIST_CUTOFF = 0.75
 
-# =========================
-# PAGE CONFIG
-# =========================
 st.set_page_config(
     page_title="SchemeFinder",
     page_icon="logo.jpeg",
     layout="wide"
 )
 
-# =========================
-# UI THEME (UNCHANGED)
-# =========================
 st.markdown("""
 <style>
 .stApp { background-color: #EAF4F4; font-family: "Inter", sans-serif; }
@@ -94,9 +81,6 @@ section[data-testid="stSidebar"] * { color: white !important; }
 </style>
 """, unsafe_allow_html=True)
 
-# =========================
-# HEADER
-# =========================
 col1, col2 = st.columns([1,5])
 with col1:
     st.image("logo.jpeg", width=85)
@@ -106,9 +90,6 @@ with col2:
 
 st.divider()
 
-# =========================
-# CHROMA DB
-# =========================
 @st.cache_resource
 def get_collection():
     client = chromadb.PersistentClient(path=CHROMA_PATH)
@@ -116,9 +97,6 @@ def get_collection():
 
 collection = get_collection()
 
-# =========================
-# FUNCTIONS
-# =========================
 def chunk_text(text):
     chunks, start = [], 0
     while start < len(text):
@@ -170,9 +148,6 @@ def retrieve(query, collection):
     )
     return [d for d,dist in zip(results["documents"][0], results["distances"][0]) if dist < DIST_CUTOFF]
 
-# =========================
-# 🔥 UPDATED OUTPUT FORMAT PROMPT
-# =========================
 def build_prompt(profile, chunks):
 
     context = "\n\n".join(chunks)
@@ -218,11 +193,8 @@ Do not use rigid templates.
 Do not add extra sections.
 """
 
-# =========================
-# SIDEBAR
-# =========================
 with st.sidebar:
-    st.markdown("### 📂 Scheme Database")
+    st.markdown("###  Scheme Database")
 
     files = st.file_uploader("Upload PDFs", type=["pdf"], accept_multiple_files=True)
 
@@ -234,10 +206,7 @@ with st.sidebar:
 
     st.write(f"Total Chunks: {collection.count()}")
 
-# =========================
-# PROFILE FORM
-# =========================
-st.markdown('<div class="profile-title">📋 Entrepreneur Profile</div>', unsafe_allow_html=True)
+st.markdown('<div class="profile-title"> Entrepreneur Profile</div>', unsafe_allow_html=True)
 
 col1, col2 = st.columns(2)
 
@@ -253,9 +222,6 @@ with col2:
     state = st.selectbox("State", ["Karnataka","Other"])
     ready = st.checkbox("Ready to apply immediately?")
 
-# =========================
-# SEARCH
-# =========================
 if st.button("Find Schemes"):
 
     profile = f"""
@@ -280,5 +246,5 @@ Ready: {ready}
             if "message" in chunk:
                 response += chunk["message"]["content"]
 
-    st.markdown("## 🎯 Matching Schemes")
+    st.markdown("## Matching Schemes")
     st.markdown(f'<div class="success-box">{response}</div>', unsafe_allow_html=True)
