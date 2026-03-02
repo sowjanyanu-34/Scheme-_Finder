@@ -25,7 +25,7 @@ Scheme-_Finder/
 
 ## Screenshot
 
-### 🏠 Home Screen
+###  Home Screen
 <p align="center">
   <img src="Agentic AI Chatbot/images/Demoo.png" width="800"/>
 </p>
