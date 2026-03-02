@@ -30,7 +30,7 @@ Scheme-_Finder/
   <img src="Agentic AI Chatbot/images/Demoo.png" width="800"/>
 </p>
 
-### 📂 Upload Screen
+###  Upload Screen
 <p align="center">
 <img src="Agentic AI Chatbot/images/Demo.png" width="800"/>
 </p>
