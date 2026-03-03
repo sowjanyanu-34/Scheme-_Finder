@@ -35,12 +35,12 @@ Scheme-_Finder/
 <img src="Agentic AI Chatbot/images/Demo.png" width="800"/>
 </p>
 
-### 🎯 n8n flow
+###  n8n flow
 <p align="center">
 <img src="Agentic AI Chatbot/images/n8n.png" width="800"/>
 </p>
 
-## 🛠️ Requirements
+##  Requirements
 
 Before running the app, install the needed dependencies:
 
