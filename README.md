@@ -49,7 +49,7 @@ pip install -r Agentic\ AI\ Chatbot/requirements.txt
 
 
 ---
-## 🚀 Clone This Repository
+##  Clone This Repository
 
 To clone this project to your local machine:
 
