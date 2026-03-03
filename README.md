@@ -71,8 +71,8 @@ git push
 
 ---
 
-## ⭐ Support This Project
+##  Support This Project
 
-If you find this project useful, please consider giving it a ⭐ on GitHub!
+If you find this project useful, please consider giving it a  on GitHub!
 
-Click the **Star** button at the top right of this repository 😊
+Click the **Star** button at the top right of this repository 
