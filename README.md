@@ -1,4 +1,4 @@
-# Scheme Finder AI Chatbot
+# ✅Scheme Finder AI Chatbot
 
 A Python-based AI chatbot project to help users interact and find relevant schemes using natural language.
 
