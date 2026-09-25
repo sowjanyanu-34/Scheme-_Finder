@@ -23,7 +23,7 @@ Scheme-_Finder/
 ```
 
 
-## Screenshot
+## Screenshot:
 
 ###  Home Screen
 <p align="center">
